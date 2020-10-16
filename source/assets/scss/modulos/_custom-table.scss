@@ -1,0 +1,32 @@
+$ct-title-bg-color: #97181A;
+$ct-item-bg-color01: #EEF0F2;
+$ct-item-bg-color02: #f5f8fc;
+
+.custom-table {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  &__title {
+    padding: 1.5rem;
+    background-color: $ct-title-bg-color;
+    p {
+      color: white;      
+      text-align: center;
+      margin-bottom: 0 !important;
+    }
+  }
+  &__item {
+    padding: 1.5rem;
+    height: 100%; 
+    background-color: $ct-item-bg-color02;  
+  }
+}
+
+.oddColor {
+  background-color: $ct-item-bg-color01;
+}
+
+.ct-color {
+  background-color: #D64626 !important;
+}
+

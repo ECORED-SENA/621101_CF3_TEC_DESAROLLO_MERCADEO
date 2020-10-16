@@ -1,0 +1,25 @@
+.quote__symbol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  .quote__icon {
+    width: 25px;
+    margin: 0 0.75rem;
+    img {
+      width: 25px;
+    }
+  }
+  .quote__line{
+    width: 100%;
+    height: 3px;
+    background-color: #CFD1D8;
+  }
+}
+
+.quote__txt {
+  p {
+    margin: 0.5rem 2rem;
+  }
+}
