@@ -36,21 +36,23 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Normativa vigente proceso ECCL', '#tema-1')
-                                    +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
+                                    +navTemaItem('1', 'Plan de mercadeo', '#tema-1')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
             #tema-1
-                include pages/1-tema.pug
-            #evaluacion
-                include pages/actividad-1.pug
+                include pages/tema-1.pug
+                include pages/tema-1-1.pug
+                include pages/tema-1-2.pug
+                include pages/tema-1-3.pug
+                include pages/tema-1-4.pug
+                include pages/tema-1-5.pug
+                include pages/tema-1-6.pug
+                include pages/tema-1-7.pug
+                include pages/tema-1-8.pug
             #glosario
                 include pages/glosario.pug
             #anexos

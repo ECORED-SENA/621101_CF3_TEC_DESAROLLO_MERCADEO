@@ -1,0 +1,80 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "plan_mercadeo",
+    "title": "1. Plan de mercadeo",
+    "breadcrumb": ["Inicio","Plan de mercadeo"],
+    "path": "pages/tema-1.html"    
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "mercadeo",
+    "title": "1.1 Mercadeo",
+    "breadcrumb": ["Inicio","mercadeo"],
+    "path": "pages/tema-1-1.html"   
+  },
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "objetivos",
+    "title": "1.2 Objetivos",
+    "breadcrumb": ["Inicio","Objetivos"],
+    "path": "pages/tema-1-2.html"   
+  },
+  { 
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "estrategias",
+    "title": "1.3 Estrategias",
+    "breadcrumb": ["Inicio","Estrategias"],
+    "path": "pages/tema-1-3.html"   
+  },
+  { 
+    "id": 5,
+    "icon": "fa fa-file-text",
+    "slug": "tacticas",
+    "title": "1.4 Tácticas",
+    "breadcrumb": ["Inicio","tacticas"],
+    "path": "pages/tema-1-4.html"   
+  },
+  { 
+    "id": 6,
+    "icon": "fa fa-file-text",
+    "slug": "planes_accion",
+    "title": "1.5 Planes de acción",
+    "breadcrumb": ["Inicio","Planes de acción"],
+    "path": "pages/tema-1-5.html"   
+  },
+  { 
+    "id": 7,
+    "icon": "fa fa-file-text",
+    "slug": "cronograma",
+    "title": "1.6 Cronograma",
+    "breadcrumb": ["Inicio","Cronograma"],
+    "path": "pages/tema-1-6.html"   
+  },
+  { 
+    "id": 8,
+    "icon": "fa fa-file-text",
+    "slug": "presupuesto",
+    "title": "1.7 Presupuesto",
+    "breadcrumb": ["Inicio","Presupuesto"],
+    "path": "pages/tema-1-7.html"   
+  },
+  { 
+    "id": 9,
+    "icon": "fa fa-file-text",
+    "slug": "control",
+    "title": "1.8 Control",
+    "breadcrumb": ["Inicio","Control"],
+    "path": "pages/tema-1-8.html"   
+  }
+]
