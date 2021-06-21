@@ -181,7 +181,7 @@
         i.fas.fa-angle-right
         | Fidelizar clientes y consumidores durante el año 2022. 
     #t_1_3.titulo-segundo
-      h2 1.3 Estraregias
+      h2 1.3 Estrategias
     .row.mb-5.justify-content-center
       .col-lg-6.my-auto
         p “La estrategia, el sentido de la oportunidad y del momento exacto son las altas cumbres del marketing. Todo lo demás son apenas colinas”. Al Ries 
