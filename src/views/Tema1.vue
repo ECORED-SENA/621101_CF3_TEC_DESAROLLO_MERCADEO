@@ -37,11 +37,63 @@
       |Adicional Keller (2016) recalca “El plan de marketing es uno de los resultados más importantes del proceso de marketing; proporciona dirección y enfoque para la marca, producto o empresa; informa y motiva a los participantes dentro y fuera de la organización en cuanto a sus metas de marketing y la manera de alcanzarlas”.
       h3 Alcance
       p.mb-5 Las empresas, dependiendo de su tamaño, nivel de crecimiento, sector o industria, tipo de liderazgo, entre otros; tienen diferentes formas de diseñar su plan de mercadeo, pero lo importante es el proceso de preparación de este, que debe ser adecuado y dinámico. En todo caso, el plan debe contener como mínimo los elementos que se presentan en la siguiente gráfica. (Prieto, 2013).
-    .row.mb-5.justify-content-center
-      .col-lg-5
-        figure
-          img.mb-5(src='@/assets/curso/img3.svg', alt='Texto que describa la imagen')
-          figcaption Fuente: Prieto, 2013
+    .row.mb-3
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/img54.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.cuadros--naranja.h-100
+            .p-4
+              h3.text-center.text-white.py-3 Resumen ejecutivo
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/img55.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.cuadros--naranja.h-100
+            .p-4
+              h3.text-center.text-white.py-3 Análisis de la situación
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/img56.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.cuadros--naranja.h-100
+            .p-4
+              h3.text-center.text-white.py-3 Objetivos
+    .row.mb-5
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/img57.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.cuadros--naranja.h-100
+            .p-4
+              h3.text-center.text-white.py-3 Estrategias de mercadeo
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/img58.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.cuadros--naranja.h-100
+            .p-4
+              h3.text-center.text-white.py-3 Planes de acción de mercadeo
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/img59.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.cuadros--naranja.h-100
+            .p-4
+              h3.text-center.text-white.py-3 Evaluación y control del plan
+            
     #t_1_1.titulo-segundo
       h2 1.1 Mercadeo
     .row.mb-5.justify-content-center
